@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomerInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="Name  "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name_edit_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="Address  "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/address_edit_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Address"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="Phone No.  "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/phone_edit_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Phone Number"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/cancel_button_id"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="70dp"
+            android:text="Cancel"
+            android:background="#FFC107"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_id"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="70dp"
+            android:text="OK"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="30dp"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

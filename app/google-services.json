@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "395217684226",
+    "firebase_url": "https://restaurentlist-fe7dd.firebaseio.com",
+    "project_id": "restaurentlist-fe7dd",
+    "storage_bucket": "restaurentlist-fe7dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395217684226:android:e5db97d09c44a6640a241b",
+        "android_client_info": {
+          "package_name": "com.example.foodizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395217684226-moj5j1pe4sjabrkr7uljk72iejcd5muj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0bKYOfN0QLCrgN-J1NXfl3WCxICDHA_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395217684226-moj5j1pe4sjabrkr7uljk72iejcd5muj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395217684226:android:56f4e3027cf6d0ff0a241b",
+        "android_client_info": {
+          "package_name": "m.example.foodizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395217684226-moj5j1pe4sjabrkr7uljk72iejcd5muj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0bKYOfN0QLCrgN-J1NXfl3WCxICDHA_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395217684226-moj5j1pe4sjabrkr7uljk72iejcd5muj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
